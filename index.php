@@ -1,6 +1,6 @@
 <?php
 // env settings
-date_default_timezone_set();
+
 ini_set('display_errors',1);
 
 // include the csv2vcf tools
@@ -42,7 +42,7 @@ if(isset($_FILES['csvFile']['name']) && $_FILES['csvFile']['name']!='')
 	$csv2vcf = new Csv2Vcf_Model();
 	
 	// delimiter errors 
-	if(!$csv2vcf->isCsvValid())
+	if(!$csv2vcf->isCsvValid($csvContent, $delimiter, $lineDelimiter))
 	{
 		echo '<pre/>';
 		echo 'Error : None of the delimiters were found in your file';

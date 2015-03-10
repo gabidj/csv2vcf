@@ -204,6 +204,6 @@ class Csv2Vcf_Model
 	 */
 	public function isCsvValid($csvContent,$delimiter, $lineDelimiter)
 	{
-		return (stripos($csvContent,$delimiter) == FALSE && stripos($csvContent, $lineDelimiter)==FALSE);
+		return !(stripos($csvContent,$delimiter) == FALSE && !(stripos($csvContent, $lineDelimiter)==FALSE));
 	}
 }
