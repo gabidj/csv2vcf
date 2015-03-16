@@ -28,8 +28,10 @@
 					<li><p> Choose the csv file you want to convert then press the Convert button</p></li>
 					<li><p> For default values leave the fields blank </p></li>
 					<li><p> Use \n for new line and \t for tab character </p></li>
+					<li><p> Contact files will be only kept on this server for development purposes, the file will be stored anonymously </p></li>
 				</ul>
 				<p class="notice">*Notice: The file will be automatically downloaded after pressing the button </p>
+
 
 				<form action="" method="post" enctype="multipart/form-data">
 					<ul class="convert_form">
