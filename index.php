@@ -1,11 +1,11 @@
 <?php
 // env settings
-
-ini_set('display_errors',1);
+// dev mode
+//ini_set('display_errors',1);
 
 // include the csv2vcf tools
-include 'csv2vcf/Model.php';
-include 'csv2vcf/FileHandler.php';
+include 'Csv2Vcf/Model.php';
+include 'Csv2Vcf/FileHandler.php';
 
 // include basic options
 $options = array();
