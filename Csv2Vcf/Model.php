@@ -6,7 +6,7 @@
  *
  * @category   csv2vcf
  * @package    csv2vcf
- * @copyright  Copyright (c) 2013 GabiSuciu.ro (http://www.gabisuciu.ro)
+ * @copyright  Copyright (c) 2015 GabiSuciu.ro (http://www.gabisuciu.ro)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  * @version    $Id$
  */
