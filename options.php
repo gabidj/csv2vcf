@@ -1,8 +1,8 @@
 <?php
 $options = array(
-				'firstName' 	=> 'Given Name',
+				'firstName' 	=> 'firstname',
 				'midName' 		=> 'Additional Name',
-				'lastName' 		=> 'Family Name',
+				'lastName' 		=> 'lastname',
 				'namePrefix' 	=> 'Name Prefix',
 				'nameSuffix' 	=> 'Name Suffix',
 				'nickname' 		=> 'Nickname',
